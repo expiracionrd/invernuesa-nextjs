@@ -1,0 +1,4 @@
+npm i react-responsive-carousel
+npm i react-swipe
+//carrousel
+npm install react react-dom yet-another-react-lightbox react-icons
