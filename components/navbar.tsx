@@ -29,7 +29,7 @@ return(
           <Link href="jobhere" className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-black md:dark:hover:text-green-500 dark:hover:bg-white-700 dark:hover:text-black md:dark:hover:bg-transparent">Trabaja con nosotros</Link>
         </li>
         <li>
-          <Link href="prestamos" className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-black md:dark:hover:text-green-500 dark:hover:bg-white-700 dark:hover:text-black md:dark:hover:bg-transparent">Ayuda</Link>
+          <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-black md:dark:hover:text-green-500 dark:hover:bg-white-700 dark:hover:text-black md:dark:hover:bg-transparent">SOLICITA UN PRÉSTAMO</a>
         </li>
       </ul>
     </div>

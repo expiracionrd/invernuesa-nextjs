@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Slider(){
     return(
-                    <div> 
+                    <div className=''> 
                     <Carousel autoPlay infiniteLoop 
                     stopOnHover={false}
                     showStatus={false}

@@ -9,7 +9,7 @@ export default function Footer(){
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                  <img src="./invernuesa.svg" className="h-14 me-6" alt="Invernuesa Logo" />
+                  <img src="./invernuesa-bw.svg" className="h-14 me-6" alt="Invernuesa Logo" />
                 </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
