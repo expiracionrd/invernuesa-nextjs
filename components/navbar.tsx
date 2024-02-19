@@ -5,8 +5,7 @@ return(
 <nav className="bg-white border-gray-200 dark:bg-white-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link href="https://invernuesa.com.do/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="./invernuesa.svg" className="h-8" alt="Invernuesa Logo" />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">INVERNUESA</span>
+        <img src="./invernuesa.svg" className="h-9" alt="Invernuesa Logo" />
     </Link>
     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-white-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
         <span className="sr-only">Abrir menú principal</span>

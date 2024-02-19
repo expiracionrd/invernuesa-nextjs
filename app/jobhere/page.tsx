@@ -1,7 +1,7 @@
 export default function Jobform(){
     return(
         <main>
-        <div className='w-full h-96 bg-[url("/images/empleados.png")]'> </div>
+        <div className='w-full h-96 bg-[url("/images/empleados.png")] bg-cover'> </div>
 
 
     <form>
@@ -31,7 +31,7 @@ export default function Jobform(){
                 <select name="estadocivil" id="estadocivil" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-slate-200  dark:placeholder-gray-400 dark:text-black dark:focus:ring-green-500 dark:focus:border-green-500" required>
                     <option value="Soltero">Soltero</option>
                     <option value="Casado">Casado</option>
-                    <option value="Concubinato">Concubinato</option>
+                    <option value="Concubinato">Concubinato o Unión Libre</option>
                     <option value="Viudo">Viudo</option>
                 </select>
             </div>

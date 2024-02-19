@@ -6,7 +6,7 @@ import ContactArea from '@/components/contact'
 export default function Contact(){
     return(
         <main>
-        <div className='w-full mx-auto h-80 bg-[url("/images/contact.png")]'> </div>
+        <div className='w-full mx-auto h-80 bg-[url("/images/contact.png")] bg-cover'> </div>
             <div className='grid grid-cols-2 gap-4'>
                 <Information/>
                 <ContactArea/>

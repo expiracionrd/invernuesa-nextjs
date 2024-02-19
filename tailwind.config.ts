@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         "greenuno": '#43ad61',
         "greendos": '#94c318',
-        "greentres": '#8fd700'
+        "greentres": '#8fd700',
+        "azul": '#36a1c9'
 
       },
       backgroundImage: {

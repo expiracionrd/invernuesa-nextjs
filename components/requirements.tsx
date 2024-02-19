@@ -26,7 +26,7 @@ export default function Requirements(){
             </h3>
             <h5 className="mb-4 text-lg font-medium">Tener cédula o pasaportes vigentes</h5>
             <p className="text-neutral-500 dark:text-neutral-300">
-              Si tiene su cédula actualizada y/o pasaporte (sí es extranjero) puede llamar para coordinar una viista en su negocio.
+              Si tiene su cédula actualizada y/o pasaporte (sí es extranjero) puede llamar para coordinar una visIta en su negocio.
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Requirements(){
             </h3>
             <h5 className="mb-4 text-lg font-medium">Duración que tiene el negocio.</h5>
             <p className="text-neutral-500 dark:text-neutral-300">
-              Creados para quiénes tengan más de 6 meses y sadfafsa
+              Creados para quiénes tengan más de 6 meses establecidos con un negocio físico.
             </p>
           </div>
         </div>
@@ -83,6 +83,13 @@ export default function Requirements(){
     </div>
   </section>
   {/* <!-- Section: Design Block --> */}
+  <section className="mb-8 text-center">
+
+  <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="inline-flex items-center text-black bg-gradient-to-r from-greentres to-green-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+      Solicitar préstamo
+     <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+  </a>
+  </section>
 </div>
 {/* <!-- Container for demo purpose --> */}
         </main>
