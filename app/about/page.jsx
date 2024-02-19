@@ -135,10 +135,11 @@ export default function About(){
               <h6 className="text-xl mb-1 font-semibold">
                 Efectividad
               </h6>
-              <p className="mb-4 text-blueGray-500">
+              <p className="text-blueGray-500 mb-4">
                 Es el equilibrio entre eficacia y eficiencia, es decir, se logra un resultado o un efecto orientado al
-                'qué' y simultáneamente al hacerlo, se utilizan mejores prácticas y el mínimo de recursos posibles.
+                &apos;qué&apos; y simultáneamente al hacerlo, se utilizan mejores prácticas y el mínimo de recursos posibles.
               </p>
+              {/* asdasd pendiente de eiminar */}
             </div>
           </div>
         </div>
