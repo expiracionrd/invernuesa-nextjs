@@ -10,7 +10,7 @@ export default function Requirements(){
     <div className="grid lg:grid-cols-3 lg:gap-x-12">
       <div className="mb-16 lg:mb-0">
         <div
-          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -21,12 +21,12 @@ export default function Requirements(){
             </div>
           </div>
           <div className="p-6">
-            <h3 className="mb-4 text-2xl font-bold text-primary dark:text-primary-400">
+            <h3 className="mb-4 text-2xl font-bold text-primary ">
               Identificación ciudadana
             </h3>
             <h5 className="mb-4 text-lg font-medium">Tener cédula o pasaportes vigentes</h5>
-            <p className="text-neutral-500 dark:text-neutral-300">
-              Si tiene su cédula actualizada y/o pasaporte (sí es extranjero) puede llamar para coordinar una visIta en su negocio.
+            <p className="text-neutral-500 ">
+              Si tiene su cédula y/o pasaporte (sí es extranjero) puede llamar para coordinar una visita en su negocio.
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Requirements(){
 
       <div className="mb-16 lg:mb-0">
         <div
-          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -45,11 +45,11 @@ export default function Requirements(){
             </div>
           </div>
           <div className="p-6">
-            <h3 className="mb-4 text-2xl font-bold text-primary dark:text-primary-400">
+            <h3 className="mb-4 text-2xl font-bold text-primary ">
               Propietario del negocio
             </h3>
             <h5 className="mb-4 text-lg font-medium">Dueño del negocio</h5>
-            <p className="text-neutral-500 dark:text-neutral-300">
+            <p className="text-neutral-500 ">
               Es importante que seas el propietario del negocio a solicitar. De igual manera, es un adicional si tienes factura que lo comprueben
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function Requirements(){
 
       <div className="">
         <div
-          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -70,11 +70,11 @@ export default function Requirements(){
             </div>
           </div>
           <div className="p-6">
-            <h3 className="mb-4 text-2xl font-bold text-primary dark:text-primary-400">
+            <h3 className="mb-4 text-2xl font-bold text-primary ">
               Estabilidad
             </h3>
             <h5 className="mb-4 text-lg font-medium">Duración que tiene el negocio.</h5>
-            <p className="text-neutral-500 dark:text-neutral-300">
+            <p className="text-neutral-500 ">
               Creados para quiénes tengan más de 6 meses establecidos con un negocio físico.
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Requirements(){
   {/* <!-- Section: Design Block --> */}
   <section className="mb-8 text-center">
 
-  <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="inline-flex items-center text-black bg-gradient-to-r from-greentres to-green-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+  <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="inline-flex items-center text-black bg-gradient-to-r from-greentres to-green-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
       Solicitar préstamo
      <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
   </a>

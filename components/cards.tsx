@@ -20,9 +20,9 @@ export default function Cards(){
               d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z" />
           </svg>
         </div>
-        <h5 className="mb-4 text-lg font-bold">Tiempo</h5>
+        <h5 className="mb-4 text-lg font-bold">Tiempo de entrega</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          En menos de 24 horas le entregamos su préstamo. Los plazos de pago para nuestros préstamos son diarios o semanales. Sumados un día de gracia para iniciar a pagar.
+          En menos de 24 horas le entregamos su préstamo. Los plazos de pago para nuestros préstamos son diarios o semanales. Concedemos un día de gracia para iniciar a pagar.
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export default function Cards(){
               d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
           </svg>
         </div>
-        <h5 className="mb-4 text-lg font-bold">Forma de pago</h5>
+        <h5 className="mb-4 text-lg font-bold">Forma de cobro</h5>
         <p className="text-neutral-500 dark:text-neutral">
           ¡Quédese tranquilo! No perderá ni una venta. Cobramos directamente en su negocio.
         </p>
@@ -62,7 +62,7 @@ export default function Cards(){
         </div>
         <h5 className="mb-4 text-lg font-bold">Reenganche</h5>
         <p className="text-neutral-500 dark:text-neutral">
-        Reengancha tu préstamo al pagar el 50% o la mitad de las cuotas. 
+        Reengancha tu préstamo al pagar la mitad de las cuotas. 
         </p>
       </div>
 
@@ -74,7 +74,7 @@ export default function Cards(){
         </div>
         <h5 className="mb-4 text-lg font-bold">Crecimiento de crédito</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          Obtenga mayores montos en nuestros préstamos aumentando su historial crediticio.
+          Con su buen manejo y puntualidad en pagos obtenga mayores montos en nuestros préstamos aumentando su historial crediticio.
         </p>
       </div>
 
@@ -87,25 +87,15 @@ export default function Cards(){
         </div>
         <h5 className="mb-4 text-lg font-bold">Asesor financiero</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          Si necesita un auxilio u orientación financiera estamos más que honorosos de poder contestar sus preguntas. ¡Totalmente gratis!
+          Si necesita orientación financiera estamos más que honorosos de poder contestar sus preguntas. ¡Totalmente gratis!
           </p>
       </div>
     </div>
   </section>
   {/* <!-- Section: Design Block --> */}
 </div>
-{/* <!-- Container for demo purpose --> */}
 
 
       </main>
-
-    // <div className="grid p-12 justify-items-center grid-cols-3 gap-8" >
-    //     <div className="max-w-36 text-center"><img src="./images/cards/calculadora.jpg" alt="" />No cobramos gastos legales, tampoco de cierre.</div>
-    //     <div className="max-w-36 text-center"><img src="./images/cards/reloj.png" alt="" />En 24 horas recibe  su préstamo</div>
-    //     <div className="max-w-36 text-center"><img src="./images/cards/dinero.png" alt="" />1 día de gracia para comenzar a pagar.</div>
-    //     <div className="max-w-36 text-center"><img src="./images/cards/money-bag.png" alt="" />Reenganche a partir del 50% saldo de su préstamo</div>
-    //     <div className="max-w-36 text-center"><img src="./images/cards/bussiness-man.png" alt="" />Asesoría financiera ¡gratis!</div>
-    //     <div className="max-w-36 text-center"><img src="./images/cards/NEG.jpg" alt="" />Facilidad de pago en su negocio</div>
-    //   </div>
     )
 }
