@@ -14,11 +14,11 @@ export default function ContactArea(){
     return(
         <main>
             <br />
+
             <h1 className="font-bold text-3xl text-center py-10">CONTÁCTANOS</h1> 
                 <p className="text-center mx-30">Háblanos, te escuchamos...</p>
-            <div className="">
 
-            <form onSubmit={onSubmit} className="grid grid-cols-4 w-fit px-4">
+            <form onSubmit={onSubmit} className="grid grid-cols-2 center">
 
 
             <label htmlFor="name"></label>
@@ -44,7 +44,6 @@ export default function ContactArea(){
             placeholder="Escribe tu mensaje aquí"/>
 
             </form>
-            </div>
             <button type="submit" className="mx-96 bg-green-600 hover:bg-green-950 text-white font-bold py-2 px-4 rounded">
                 Enviar
             </button>
