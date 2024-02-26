@@ -8,7 +8,7 @@ export default function Jobform(){
         <main>
             
         <h1 className="font-bold text-2xl text-center">DATOS PERSONALES</h1>
-        <div className="grid gap-6 mb-6 md:grid-cols-2">
+        <div className="grid gap-6 mb-6 md:grid-cols-2 px-20">
             <div>
                 <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-red-900 ">
                     Nombres</label>
@@ -86,7 +86,9 @@ export default function Jobform(){
 
             <h1 className="font-bold text-2xl text-center">FORMACIÓN ACADÉMICA</h1>
 
-            <div>
+            <div className="grid gap-6 mb-6 md:grid-cols-2 px-20">
+                <div>
+
                 <label htmlFor="nivelestudio" className="block mb-2 text-sm font-medium text-gray-900 ">Nivel de estudios:</label>
                 <select name="estudios" id="estudios" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5      " required>
                     <option value="bachiller">Bachiller</option>
@@ -94,25 +96,29 @@ export default function Jobform(){
                     <option value="phd">Postgrado / Doctorado</option>
                     <option value="estudiante">Estudiante Universitario</option>
                 </select>
-            </div>
+                </div>
             <div>
                 <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-red-900 ">
                     Carrera</label>
-                <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5      " placeholder="Carrera estuadiada"/>
+                <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5      " placeholder="Carrera estudiada"/>
             </div>
             <div>
                 <label htmlFor="cursos" className="block mb-2 text-sm font-medium text-gray-900 ">Cursos técnicos</label>
                 <input type="text" id="cursos" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5      " placeholder="Cursos impartidos"/>
             </div>
+            </div>
 
 
             <h1 className="font-bold text-2xl text-center">EXPERIENCIA LABORAL</h1>
 
+            <div className="grid gap-6 px-20 py-5">
+
             <div>
                 <label htmlFor="EXPERIENCIA" className="block mb-2 text-sm font-medium text-gray-900 ">Por favor, cuéntenos sus 3 últimas experiencias laborables.</label>
-                <input type="text" id="experiencia" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5      " placeholder="Trabajé en ... y aprendí o me desempeñé como ... durante ... tiempo."/>
+                <input type="text" id="experiencia" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-12" placeholder="Trabajé en ... y aprendí o me desempeñé como ... durante ... tiempo."/>
                 <label htmlFor="cv_manual" className="block mb-2 text-sm font-medium text-gray-900 ">Adjunte su hoja de vida actualizada</label>
                 <input type="file" name="cv" id="cv" accept=".doc,.docx, .pdf" />
+            </div>
             </div>
 
         <div className="flex items-start mb-6">
@@ -121,7 +127,7 @@ export default function Jobform(){
             </div>
             <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900 ">Acepto los <a href="#" className="text-green-600 hover:underline">términos y condiciones</a>.</label>
         </div>
-        <button type="submit" className="text-black bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Enviar</button>
+        <button type="submit" className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-2.5 text-center">Enviar</button>
         </main>
     </form>
 </main>

@@ -7,23 +7,23 @@ export default function Stadistics(){
     
     <div id="fullWidthTabContent">
         <div className=" p-4 md:p-8 bg-gradient-to-r from-lime-500 to-green-700" id="stats" role="tabpanel" aria-labelledby="stats-tab">
-            <h2 className=" text-center mb-5 text-2xl font-extrabold tracking-tight text-gray-900">Nuestros números hablan con el tiempo.</h2>
-            <dl className="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-2 xl:grid-cols-4  sm:p-8">
+            <h2 className=" text-center mb-5 text-2xl font-extrabold tracking-tight text-white">Nuestros números hablan con el tiempo.</h2>
+            <dl className="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-white sm:grid-cols-2 xl:grid-cols-4  sm:p-8">
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">3</dt>
-                    <dd className="text-gray-900 ">Sucursales.</dd>
+                    <dd className="text-white ">Sucursales.</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">35</dt>
-                    <dd className="text-gray-900 ">Agentes ubicados en todo el país.</dd>   
+                    <dd className="text-white ">Agentes ubicados en todo el país.</dd>   
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">+20 años</dt>
-                    <dd className="text-gray-900 ">Pioneros en el mercado. Más de 20 años.</dd>
+                    <dd className="text-white ">Pioneros en el mercado. Más de 20 años.</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">+15 mil</dt>
-                    <dd className="text-gray-900 ">Clientes</dd>
+                    <dd className="text-white ">Clientes</dd>
                 </div>
 
             </dl>
