@@ -1,10 +1,10 @@
 export default function Jobform(){
     return(
         <main>
-        <div className='w-full h-96 bg-[url("/images/empleados.png")] bg-cover'> </div>
+        <div className='w-full h-96 bg-[url("/images/empleados.jpg")]'> </div>
 
 
-    <form>
+    <form className="justify-center text-center">
         <main>
             
         <h1 className="font-bold text-2xl text-center">DATOS PERSONALES</h1>
@@ -121,7 +121,7 @@ export default function Jobform(){
             </div>
             </div>
 
-        <div className="flex items-start mb-6">
+        <div className="flex items-center mb-6">
             <div className="flex items-center h-5">
             <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-green-300    " required/>
             </div>
@@ -130,6 +130,7 @@ export default function Jobform(){
         <button type="submit" className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-2.5 text-center">Enviar</button>
         </main>
     </form>
+    <br />
 </main>
     )
 }
