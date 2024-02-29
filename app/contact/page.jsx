@@ -17,7 +17,7 @@
 //     )
 // }
 
-"use client";
+"use client"
 
 import React from "react";
 import {
@@ -32,7 +32,7 @@ import {
 import { PhoneIcon, EnvelopeIcon, TicketIcon } from "@heroicons/react/24/solid";
 
 
-export function Contact() {
+export default function Contact(){
   return (
     <section className="px-8 pt-20">
     <div className="container mx-auto mb-5 md:mb-20 text-center">
@@ -165,4 +165,3 @@ Higuey              </a>
   </section>
   );
 }
-export default ContactForm;
