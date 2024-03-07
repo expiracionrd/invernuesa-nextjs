@@ -1,25 +1,7 @@
-// import Image from 'next/image'
-// import Information from '@/components/information'
-// import ContactArea from '@/components/contact'
-
-
-// export default function Contact(){
-//     return(
-//         <main>
-//         <div className='w-full mx-auto h-80 bg-[url("/images/contact.png")] bg-cover'> </div>
-//             <div className='grid grid-cols-2 gap-4'>
-//                 <Information/>
-//                 <ContactArea/>
-//             </div>
-//             <iframe className="py-4 w-full h-96" src="https://www.google.com/maps/d/u/0/embed?mid=1rF3AS6RdY48F5Nxd-kdGxXPa4eHlTcg&ehbc=2E312F&noprof=1"></iframe>
-//         <br/>
-//         </main>
-//     )
-// }
-
 "use client"
 
 import React from "react";
+import Agents from "@/components/contact/agents";
 import {
   Button,
   IconButton,
@@ -110,23 +92,23 @@ export default function Contact(){
             </Typography>
             <Typography
               variant="lead"
-              className="mx-auto mb-8 text-base !text-gray-500"
+              className="mx-auto mb-8 text-base text-gray-900"
             >
               Puedes acercarte a algunas de nuestras oficinas con diferentes localidades. ¡O hazlo por teléfono!
             </Typography>
-            <div className="flex gap-5">
-              <PhoneIcon className="h-6 w-6 text-white" />
-              <Typography href="tel:+18095349053" variant="h6" color="white" className="mb-2">
-                +1 (829) 534-9053
+            <div className="flex gap-5 text-white">
+              <PhoneIcon className="h-6 w-6"/>
+              <Typography href="tel:+18095349053" color="white" className="mb-2 text-base">
+                (829) 534-9053
               </Typography>
-              <PhoneIcon className="h-6 w-6 text-white" />
-              <Typography href="tel:+18092474377" variant="h6" color="white" className="mb-2">
-                +1 (809) 247-4377
+              <PhoneIcon className="h-6 w-6"/>
+              <Typography href="tel:+18092474377" color="white" className="mb-2 text-base">
+                (809) 247-4377
               </Typography>
 
-              <PhoneIcon className="h-6 w-6 text-white" />
-              <Typography href="tel:+18095541044" variant="h6" color="white" className="mb-2">
-                +1 (809) 554-1044
+              <PhoneIcon className="h-6 w-6"/>
+              <Typography href="tel:+18095541044" color="white" className="mb-2 text-base">
+                (809) 554-1044
               </Typography>
               
             </div> 
@@ -161,6 +143,18 @@ Higuey              </a>
     </div>
      <iframe className="py-4 w-full h-96" src="https://www.google.com/maps/d/u/0/embed?mid=1rF3AS6RdY48F5Nxd-kdGxXPa4eHlTcg&ehbc=2E312F&noprof=1"></iframe>
        <br/>
+
+    <div className="container mx-auto mb-8 md:mb-20 text-center bg-gradient-to-r from-greentres to-green-500 p-4">
+    <section>
+
+      <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="inline-flex items-center text-black text-center text-white">
+          Pida su préstamo AQUÍ y AHORA
+        <svg className="ml-2 -mr-1 w-5 h-5  hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+    </section>
+    </div>
+      
+      <Agents/>
 
   </section>
   );
