@@ -16,7 +16,7 @@ import { PhoneIcon, EnvelopeIcon, TicketIcon } from "@heroicons/react/24/solid";
 
 export default function Contact(){
   return (
-    <section className="px-8 pt-20">
+    <section className="px-5 pt-20">
     <div className="container mx-auto mb-5 md:mb-20 text-center">
       <Typography variant="h1" color="blue-gray" className="mb-4">
         ¿Tienes algún comentario para nosotros?
@@ -27,8 +27,8 @@ export default function Contact(){
     </div>
     <div className="container mx-auto">
       <Card shadow={true} className="border ">
-        <CardBody className="grid grid-cols-1 md:p-10 lg:grid-cols-2 md:gap-28">
-          <div className="w-full mt-8 md:mt-0 md:px-10 h-full p-5">
+        <CardBody className="grid grid-cols-1 lg:grid-cols-2 md:gap-20">
+          <div className="w-full mt-8 md:mt-0 md:px-1 h-full p-5">
             <form action="#">
               <div className="mb-8 grid gap-4 lg:grid-cols-2">
                 {/* @ts-ignore */}
@@ -86,7 +86,7 @@ export default function Contact(){
               </div>
             </form>
           </div>
-          <div className="w-full rounded-lg h-full py-8 p-5 md:p-16 bg-greenuno">
+          <div className="w-full rounded-lg h-full py-8 p-6 md:p-8 bg-greenuno">
             <Typography variant="h4" color="white" className="mb-2">
               Información de contacto en oficinas
             </Typography>
@@ -112,7 +112,7 @@ export default function Contact(){
               </Typography>
               
             </div> 
-            <div className="flex gap-12 justify-center text-white">
+            <div className="flex gap-16 justify-center text-white">
               <a href="tel:+18095349053" variant="h6" color="white" className="mb-2">
                 Santo Domingo
               </a>
@@ -141,9 +141,10 @@ Higuey              </a>
         </CardBody>
       </Card>
     </div>
-     <iframe className="py-4 w-full h-96" src="https://www.google.com/maps/d/u/0/embed?mid=1rF3AS6RdY48F5Nxd-kdGxXPa4eHlTcg&ehbc=2E312F&noprof=1"></iframe>
+     <iframe className="py-4 w-full h-96 snap-none" src="https://www.google.com/maps/d/u/0/embed?mid=1rF3AS6RdY48F5Nxd-kdGxXPa4eHlTcg&ehbc=2E312F&noprof=1"></iframe>
        <br/>
 
+{/* CTA botón */}
     <div className="container mx-auto mb-8 md:mb-20 text-center bg-gradient-to-r from-greentres to-green-500 p-4">
     <section>
 
