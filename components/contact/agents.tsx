@@ -451,7 +451,7 @@ export default function Agents(){
             </div>
             {/*  SUR CARDS Y SANTO DOMINGO */}
             Región Sur 
-            <div className="grid-cols-4 sm:grid md:grid-cols-4 gap-4 my-7">
+            <div className="grid-cols-3 sm:grid md:grid-cols-3 gap-4 my-7">
             <a href="tel:18293448429"
             className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
             >
@@ -764,44 +764,6 @@ export default function Agents(){
                 <p className="text-pretty text-sm text-gray-500">
                 Comunícate si estás en esta zona (o cercana) de nuestro agente. 
                 <article className="font-bold">+1 (829) 344-8431
-                </article> 
-                </p>
-            </div>
-
-            <dl className="mt-6 flex gap-4 sm:gap-6">
-                <div className="flex flex-col-reverse">
-                <dt className="text-sm font-medium text-gray-600">Oficina</dt>
-                <dd className="text-xs text-gray-500">(829) 534-9053</dd>
-                </div>
-
-                <div className="flex flex-col-reverse">
-                <dt className="text-sm font-medium text-gray-600">Sucursal encargada</dt>
-                <dd className="text-xs text-gray-500"> Ave. Independencia, Km 7½ Plaza Ariel. Local 205</dd>
-                </div>
-            </dl>
-            </a>
-
-
-            {/* 10 neiba */}
-            <a href="tel:1829344"
-            className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
-            >
-            <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-greenuno via-greendos to-green-600"></span>
-
-            <div className="sm:flex sm:justify-between sm:gap-4">
-                <div>
-                <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-                    San Juan de la Maguana
-                </h3>
-
-                <p className="mt-1 text-xs font-medium text-gray-600"></p>
-                </div>
-            </div>
-
-            <div className="mt-4">
-                <p className="text-pretty text-sm text-gray-500">
-                Comunícate si estás en esta zona (o cercana) de nuestro agente. 
-                <article className="font-bold">+1 (829) 344-pendiente
                 </article> 
                 </p>
             </div>
