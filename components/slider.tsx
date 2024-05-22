@@ -10,8 +10,8 @@ export default function Slider(){
 
                     <section className="bg-black dark:bg-gray-900"/>
                             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                                <img className="w-full dark:hidden" src="/images/iStock.jpg" alt="dashboard image"/>
-                                <img className="w-full hidden dark:block" src="/images/iStock.jpg" alt="dashboard image"/>
+                                <Image width={800} height={100} quality={100} className="dark:hidden" src="/images/iStock.jpg" alt="dashboard image"/>
+                                <Image width={800} height={100} quality={100} className="hidden dark:block" src="/images/iStock.jpg" alt="dashboard image"/>
                                 <div className="mt-4 md:mt-0">
                                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 bg-gradient-to-r from-greenuno via-greendos to-greenuno bg-clip-text text-transparent" >Préstamos a MiPyME rápidos y sencillos.</h2>
                                     <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">INVERNUESA está disponible cuando necesites una mano amiga. Aprovecha las oportunidades de crecimiento con nuestros préstamos aprobados y entregados en menos de 24 horas. </p>
