@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
-import Navbar from '../components/navbar';
+import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import Script from 'next/script'
+
 
 
 
@@ -30,9 +32,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={raleway.className}>
+
       <Navbar/>
         {children}
       <Footer/>
+      <script src="../path/to/flowbite/dist/flowbite.min.js" async/>
       </body>
     </html>
   );
