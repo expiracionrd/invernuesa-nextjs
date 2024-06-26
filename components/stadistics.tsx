@@ -11,11 +11,11 @@ export default function Stadistics(){
             <dl className="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-white sm:grid-cols-2 xl:grid-cols-4  sm:p-8">
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">3</dt>
-                    <dd className="text-white ">Sucursales.</dd>
+                    <dd className="text-white ">Oficinas.</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">35</dt>
-                    <dd className="text-white ">Agentes ubicados en todo el país.</dd>   
+                    <dd className="text-white ">Representantes ubicados en todo el país.</dd>   
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">+20 años</dt>

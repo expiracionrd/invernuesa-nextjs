@@ -71,7 +71,7 @@ export default function Requirements(){
           </div>
           <div className="p-6">
             <h3 className="mb-4 text-2xl font-bold text-primary ">
-              Estabilidad
+              Tiempo
             </h3>
             <h5 className="mb-4 text-lg font-medium">Duración que tiene el negocio.</h5>
             <p className="text-neutral-500 ">

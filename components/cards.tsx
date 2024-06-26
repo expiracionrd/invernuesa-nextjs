@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Cards(){
     return(
       <main>
@@ -22,7 +20,7 @@ export default function Cards(){
         </div>
         <h5 className="mb-4 text-lg font-bold">Tiempo de entrega</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          En menos de 24 horas le entregamos su préstamo. Los plazos de pago para nuestros préstamos son diarios o semanales. Concedemos un día de gracia para iniciar a pagar.
+          En menos de 24 horas le entregamos su préstamo en su negocio. 
         </p>
       </div>
 
@@ -48,7 +46,7 @@ export default function Cards(){
         </div>
         <h5 className="mb-4 text-lg font-bold">Tasa interés más baja</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          Descuento de 5 puntos en la tasa de interés luego de haber saldado 2 préstamos. 
+          Descuento de 5 puntos en la tasa de interés luego de haber saldado 2 préstamos sin atrasos. 
           </p>
       </div>
     </div>
@@ -63,6 +61,8 @@ export default function Cards(){
         <h5 className="mb-4 text-lg font-bold">Reenganche</h5>
         <p className="text-neutral-500 dark:text-neutral">
         Reengancha tu préstamo al pagar la mitad de las cuotas. 
+
+        Con un buen manejo obtenga mayores montos, basado en su historial y responsabilidad con cuotas. 
         </p>
       </div>
 
@@ -72,9 +72,9 @@ export default function Cards(){
         <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z"/>
       </svg>
         </div>
-        <h5 className="mb-4 text-lg font-bold">Crecimiento de crédito</h5>
+        <h5 className="mb-4 text-lg font-bold">Plazos de pago</h5>
         <p className="text-neutral-500 dark:text-neutral">
-          Con su buen manejo y puntualidad en pagos obtenga mayores montos en nuestros préstamos aumentando su historial crediticio.
+          Modalidad de pago diario y semanal. Disfrute un reenganche en menos tiempo.
         </p>
       </div>
 

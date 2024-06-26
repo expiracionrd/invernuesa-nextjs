@@ -2,10 +2,10 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import Image from 'next/image'
+import 'flowbite'
 
 export default function Navbar() {
-  
+
   const pathname = usePathname()
   
   console.log(pathname)  
@@ -21,14 +21,17 @@ export default function Navbar() {
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg> 
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+
+
+        <div className= "hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white   ">
             <li>
               {
                 pathname === "/"?
                   <Link href="/" className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:text-green-700 md:p-0  " aria-current="page">Inicio</Link>
                 :              
-                  <Link href="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0" aria-current="page">Inicio</Link>
+                  <Link href="/
+                  " className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0" aria-current="page">Inicio</Link>
               }
             </li>
             <li>
@@ -60,8 +63,8 @@ export default function Navbar() {
               <a href="https://www.invernuesa.com.do/nuevos-pr%C3%A9stamos" className="block py-2 px-3 text-gray-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0">SOLICITA UN PRÉSTAMO</a>
             </li>
           </ul>
-        </div>
-      </div>
+       </div>
+       </div>
     </nav>
   );
 }
